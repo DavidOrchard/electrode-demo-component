@@ -1,0 +1,39 @@
+{
+  "name": "electrode-demo-component",
+  "version": "1.0.0",
+  "description": "electrode-demo-component",
+  "main": "lib/index.js",
+  "author": {
+    "name": "David Orchard",
+    "url": "https://github.com/davidorchard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pacificspirit/electrode-demo-component.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pacificspirit/electrode-demo-component/issues"
+  },
+  "homepage": "https://github.com/pacificspirit/electrode-demo-component",
+  "dependencies": {},
+  "devDependencies": {
+    "electrode-archetype-react-component": "^1.0.0",
+    "electrode-archetype-react-component-dev": "^1.0.0",
+    "gulp": "^3.9.1"
+  },
+  "engines": {
+    "node": "^4.2.6",
+    "npm": "^3.5.3"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "start": "gulp demo",
+    "test": "gulp check"
+  },
+  "keywords": [
+    "react",
+    "electrode",
+    "electrode-component",
+    "react-component"
+  ]
+}
